@@ -1,0 +1,43 @@
+*:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+h1 {
+	text-align: center;
+}
+
+.centered {
+	margin: auto;
+	float: none;
+}
+
+.list {
+	margin: 20px auto;
+}
+
+.list-group-item-heading {
+	padding-left: 5px;
+	border-left: 2px solid #3399FF;
+	font-size: 22px;
+	color: #3399FF;
+}
+
+.btn-delete {
+	background-color: #D91E18;
+	color: #FFF;
+	float: right;
+	visibility: hidden;
+}
+.list-group-item:hover .btn-delete {
+	visibility: visible;
+}
+
+#textoTarefa {
+	width: 90%;
+	float: left;
+}
